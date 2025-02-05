@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sibeh Decoration</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Add the Dancing Script font for a romantic feel -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <style>
+        /* Apply the Dancing Script font to headings for a romantic touch */
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Dancing Script', cursive;
+        }
+
+        /* Keep the rest of the body text with a more neutral font */
+        body, p {
+            font-family: 'Arial', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-[#0F0F0F] text-[#F1EFEF]">
+
+    <nav class="bg-[#0F0F0F] fixed w-full top-0 z-50 py-4 shadow-md">
+        <div class="container mx-auto flex justify-center">  
+            <ul class="flex flex-wrap justify-center space-x-10 text-lg font-semibold uppercase">
+                <li><a href="#Home" class="hover:text-gray-400 transition duration-300">Home</a></li>
+                <li><a href="#About" class="hover:text-gray-400 transition duration-300">About Us</a></li>
+                <li><a href="#Project" class="hover:text-gray-400 transition duration-300">Projects</a></li>
+                <li><a href="#Paket" class="hover:text-gray-400 transition duration-300">Packages</a></li>
+                <li><a href="#Contact" class="hover:text-gray-400 transition duration-300">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="Home" class="relative h-[800px] flex items-center justify-center">
+        <div class="absolute inset-0 bg-[url('/images/home.jpg')] bg-cover bg-center opacity-50 blur-sm transition duration-500 hover:blur-0"></div>
+        <div class="relative text-center">
+            <h1 class="text-6xl font-bold">SIBEH DECORATION</h1>
+            <h2 class="text-3xl mt-2">Wedding Bali Decoration</h2>
+        </div>
+    </section>
+
+    <section id="About" class="py-20 text-center">
+        <h2 class="text-4xl font-bold mb-10">About Us</h2>
+        <div class="container mx-auto relative flex flex-col md:flex-row items-center justify-center gap-8">
+            <div class="relative w-full md:w-1/2 h-[500px] overflow-hidden rounded-xl">
+                <div class="absolute inset-0 bg-[url('/images/about.jpg')] bg-cover bg-center opacity-50"></div>
+            </div>
+            <div class="w-full md:w-1/2 flex flex-col items-center justify-center space-y-6">
+                <h1 class="text-5xl font-bold">SIBEH DECORATION</h1>
+                <h2 class="text-2xl">Wedding Bali Decoration</h2>
+                <p class="text-lg">#believeinsibehdecoration</p>
+                <p class="max-w-3xl text-lg leading-relaxed px-4 md:px-0">
+                    Sibeh Decoration is a wedding decoration service that embraces traditional Balinese concepts with an elegant and modern touch.
+                    Bringing a stunning wedding atmosphere with characteristic Balinese ornaments, such as wood carvings, tropical flowers, and traditional fabrics.
+                    We are committed to providing an authentic and captivating experience for couples who want to celebrate their historic moments.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="Project" class="py-20 text-center">
+        <h2 class="text-4xl font-bold mb-10">Our Projects</h2>
+        <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8 px-4">
+
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <img class="w-full h-60 object-cover" src="/images/project1.jpg" alt="Project 1">
+                <div class="p-6 bg-gray-900 text-white">
+                    <h3 class="text-xl font-bold mb-2">Elegant Bali Wedding</h3>
+                    <p class="text-gray-300">A luxurious and magical Bali wedding decoration.</p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <img class="w-full h-60 object-cover" src="/images/project2.jpg" alt="Project 2">
+                <div class="p-6 bg-gray-900 text-white">
+                    <h3 class="text-xl font-bold mb-2">Tropical Wedding</h3>
+                    <p class="text-gray-300">A combination of tropical flowers and traditional Balinese wooden ornaments.</p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <img class="w-full h-60 object-cover" src="/images/project3.jpg" alt="Project 3">
+                <div class="p-6 bg-gray-900 text-white">
+                    <h3 class="text-xl font-bold mb-2">Traditional Balinese</h3>
+                    <p class="text-gray-300">A classic Balinese wedding with authentic and exclusive decoration.</p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <img class="w-full h-60 object-cover" src="/images/project4.jpg" alt="Project 4">
+                <div class="p-6 bg-gray-900 text-white">
+                    <h3 class="text-xl font-bold mb-2">Modern Wedding</h3>
+                    <p class="text-gray-300">Modern wedding decoration with an elegant touch.</p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <img class="w-full h-60 object-cover" src="/images/project5.jpg" alt="Project 5">
+                <div class="p-6 bg-gray-900 text-white">
+                    <h3 class="text-xl font-bold mb-2">Romantic Wedding</h3>
+                    <p class="text-gray-300">Create a romantic atmosphere with enchanting decoration.</p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <img class="w-full h-60 object-cover" src="/images/project6.jpg" alt="Project 6">
+                <div class="p-6 bg-gray-900 text-white">
+                    <h3 class="text-xl font-bold mb-2">Luxury Wedding</h3>
+                    <p class="text-gray-300">Luxurious wedding decoration for an unforgettable moment.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="Paket" class="py-20 text-center">
+        <h2 class="text-4xl font-bold mb-10">Decoration Packages</h2>
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 px-4">
+            <div class="bg-white rounded-lg shadow-lg p-6">
+                <h3 class="text-3xl text-black font-bold mb-4">Intimate Package</h3>
+                <ul class="list-disc pl-6 text-black">
+                    <li>Simplified wedding decoration</li>
+                    <li>Fresh flowers</li>
+                    <li>Standard lighting</li>
+                </ul>
+                <p class="mt-4 font-medium text-lg text-black">Starting from Rp 10,000,000</p>
+            </div>
+            <div class="bg-white rounded-lg shadow-lg p-6">
+                <h3 class="text-3xl font-bold mb-4 text-black">Luxury Package</h3>
+                <ul class="list-disc pl-6 text-black">
+                    <li>Luxurious wedding decoration</li>
+                    <li>Premium flowers</li>
+                    <li>Artistic lighting</li>
+                    <li>Photo booth area</li>
+                </ul>
+                <p class="mt-4 font-medium text-lg text-black">Starting from Rp 25,000,000</p>
+            </div>
+            <div class="bg-white rounded-lg shadow-lg p-6">
+                <h3 class="text-3xl font-bold mb-4 text-black">Custom Package</h3>
+                <p class="text-black">Custom design decoration according to your preferences.</p>
+                <p class="mt-4 font-medium text-lg text-black">Price varies <br>
+                Contact Us For More Information</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="Testimoni" class="py-20 text-center">
+        <h2 class="text-4xl font-bold mb-10">Testimonials</h2>
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 px-4">
+            <div class="bg-white rounded-lg shadow-lg p-6">
+                <p class="text-lg italic text-black">"Sibeh Decoration truly made our wedding dream come true! Beautiful decoration, friendly service, and affordable prices. Thank you Sibeh Decoration!"</p>
+                <p class="mt-4 font-medium text-black">- Ayu & Budi, Bali</p>
+            </div>
+            <div class="bg-white rounded-lg shadow-lg p-6">
+                <p class="text-lg italic text-black">"We are very satisfied with the decoration from Sibeh Decoration. Creative, innovative, and aligned with the theme we wanted. Highly recommended!"</p>
+                <p class="mt-4 font-medium text-black">- Made & Sinta, Ubud</p>
+            </div>
+            <div class="bg-white rounded-lg shadow-lg p-6">
+                <p class="text-lg text-black italic">"Sibeh Decoration's service is amazing! They were very helpful and professional. Our wedding decoration became extra special thanks to Sibeh Decoration."</p>
+                <p class="mt-4 font-medium text-black">- Komang & Dewi, Denpasar</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="Contact" class="py-20 text-center">
+        <h2 class="text-4xl font-bold mb-10">Social Media</h2>
+        <div class="container mx-auto flex flex-wrap justify-center gap-6">
+            <button class="rounded-full border-4 border-white px-10 py-4 text-xl text-white bg-transparent hover:bg-white hover:text-black transition duration-300">
+                Instagram
+            </button>
+            <button class="rounded-full border-4 border-white px-10 py-4 text-xl text-white bg-transparent hover:bg-white hover:text-black transition duration-300">
+                Tiktok
+            </button>
+            <button class="rounded-full border-4 border-white px-10 py-4 text-xl text-white bg-transparent hover:bg-white hover:text-black transition duration-300">
+                WhatsApp
+            </button>
+        </div>
+    </section>
+
+</body>
+
+</html>
